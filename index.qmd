@@ -1,7 +1,6 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Jinyuan Stella Sun, PhD"
+image: "files/images/StellaSun.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
