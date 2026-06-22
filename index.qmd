@@ -1,6 +1,6 @@
 ---
 title: "Jinyuan Stella Sun, PhD"
-image: "files/images/StellaSun.jpg"
+image: "files/images/stellasun.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
