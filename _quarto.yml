@@ -15,7 +15,7 @@ website:
   navbar:
     background: dark  # You can change the background color here
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
+    right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
       #- text: About
@@ -27,14 +27,14 @@ website:
       #    - text: Contact
       #      href: contact.qmd             
       - text: Research
-        menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
+       # menu:
+        #  - text: Publications Listing  # Automatically generated from publications.xlsx
             href: pub-listing.qmd
-          - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
+        #  - text: Publications  # Manually curated list of publications
+        #    href: publications.qmd            
+        #  - text: Selected Papers
+        #    href: posts.qmd#category=paper
+        #  - text: Grants
             href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
@@ -58,10 +58,10 @@ website:
     #    href: posts.xml
     #    target: _blank
   
-  page-navigation: true
+  #page-navigation: true
   
   page-footer: 
-    left: "[Stella Sun](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    right: "[Stella Sun](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     #center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     #right:  
     #  - icon: github
@@ -74,27 +74,27 @@ website:
     #    href: posts.xml
     #    target: _blank  
   
-  search:
-    location: navbar
-    type: textbox
+  #search:
+  #  location: navbar
+  #  type: textbox
   
-  reader-mode: true
+  #reader-mode: true
 
-  draft-mode: unlinked
+  #draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  #repo-url: https://github.com/drganghe/quarto-academic-website-template
 #  repo-actions: [edit, issue, source]
   
-  open-graph: true
+  #open-graph: true
   
-  twitter-card: true 
+  #twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  #site-url: "https://drganghe.github.io/quarto-academic-website-template"
   
-  google-analytics:
-    tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
+ # google-analytics:
+ #   tracking-id: ""  # Please delete or replace with your own tracking ID
+ #   anonymize-ip: true 
 
 bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
 
