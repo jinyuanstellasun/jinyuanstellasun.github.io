@@ -27,9 +27,9 @@ website:
       #    - text: Contact
       #      href: contact.qmd             
       - text: Research
+        href: pub-listing.qmd
        # menu:
         #  - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
         #  - text: Publications  # Manually curated list of publications
         #    href: publications.qmd            
         #  - text: Selected Papers
