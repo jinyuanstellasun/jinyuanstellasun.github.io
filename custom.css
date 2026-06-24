@@ -3,6 +3,6 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-flex;
   vertical-align: middle;
 }
-.about-entity .about-title {
-    font-size: 3.2rem !important;
+.quarto-about-trestles h1.title {
+    font-size: 1.8rem;
 }
