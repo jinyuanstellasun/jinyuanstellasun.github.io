@@ -15,7 +15,7 @@ website:
   navbar:
     background: dark  # You can change the background color here
 
-    right:   # You can comment out all navigation items here if you just like to keep the index page only
+    left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
       #- text: About
@@ -61,7 +61,7 @@ website:
   #page-navigation: true
   
   page-footer: 
-    right: "[Stella Sun](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "[Stella Sun](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     #center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     #right:  
     #  - icon: github
@@ -74,7 +74,7 @@ website:
     #    href: posts.xml
     #    target: _blank  
   
-  #search:
+ # search:
   #  location: navbar
   #  type: textbox
   
