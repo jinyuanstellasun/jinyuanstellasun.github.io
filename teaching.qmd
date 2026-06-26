@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 title-block-banner: false
+toc: false
 ---
 
 
@@ -31,17 +32,6 @@ In-depth introduction to core Internet and wireless technologies, related securi
 :::
 
 
-## ECE 453/553 - Introduction to Computer Networks
-
-::: {.grid}
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-Introduction to the design and implementation of computer networks. Topics to be covered include layered network architecture, physical media, data link protocols, network routing, transport layer, network programming interfaces such as sockets, and applications. Examples will be primarily based on protocols in the Internet.
-
-:::
 
 ## COSC 230 - Computer Organization
 
@@ -54,6 +44,21 @@ Introduction to the design and implementation of computer networks. Topics to be
 Gate level logic, binary number representation and arithmetic, data path and memory hierarchy with focus on code impact, parallel computing, instruction set architecture.
 
 :::
+
+
+
+## ECE 453/553 - Introduction to Computer Networks
+
+::: {.grid}
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+Introduction to the design and implementation of computer networks. Topics to be covered include layered network architecture, physical media, data link protocols, network routing, transport layer, network programming interfaces such as sockets, and applications. Examples will be primarily based on protocols in the Internet.
+
+:::
+
 
 
 ## ECE 255 - Introduction to Logic Design of Digital Systems
