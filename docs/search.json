@@ -109,21 +109,21 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "A broad introduction to cybersecurity concepts. The class will introduce basic topics core to understanding computer security including security goals, threat modeling, software security, operating system security, cryptography, network security, and human factors. Coursework focuses on helping students adapt a security aware mindset when designing, developing, and testing systems."
+    "text": "A broad introduction to cybersecurity concepts. The class will introduce basic topics core to understanding computer security including security goals, threat modeling, software security, operating system security, cryptography, network security, and human factors. Coursework focuses on helping students adapt a security aware mindset when designing, developing, and testing systems.\n\n:::"
   },
   {
-    "objectID": "teaching.html#cosc-366-introduction-to-cybersecurity",
-    "href": "teaching.html#cosc-366-introduction-to-cybersecurity",
+    "objectID": "teaching.html#cosc-366---introduction-to-cybersecurity",
+    "href": "teaching.html#cosc-366---introduction-to-cybersecurity",
     "title": "Teaching",
     "section": "",
-    "text": "A broad introduction to cybersecurity concepts. The class will introduce basic topics core to understanding computer security including security goals, threat modeling, software security, operating system security, cryptography, network security, and human factors. Coursework focuses on helping students adapt a security aware mindset when designing, developing, and testing systems."
+    "text": "A broad introduction to cybersecurity concepts. The class will introduce basic topics core to understanding computer security including security goals, threat modeling, software security, operating system security, cryptography, network security, and human factors. Coursework focuses on helping students adapt a security aware mindset when designing, developing, and testing systems.\n\n:::"
   },
   {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
+    "objectID": "teaching.html#cosc-434534---network-security",
+    "href": "teaching.html#cosc-434534---network-security",
     "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+    "section": "COSC 434/534 - Network Security",
+    "text": "COSC 434/534 - Network Security\n\nIn-depth introduction to core Internet and wireless technologies, related security concerns, common security vulnerabilities, and good security practices. Hands-on experience exploiting network protocols and communications, and setting up secure network connections.\n\n:::"
   },
   {
     "objectID": "teaching.html#class-3",
