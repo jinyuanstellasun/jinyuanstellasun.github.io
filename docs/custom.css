@@ -6,3 +6,20 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 .quarto-about-trestles h1.title {
     font-size: 1.8rem;
 }
+
+/* Publication cards generated from publications.bib */
+.publication {
+  margin: 0.9rem 0 1.4rem 0;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.publication p {
+  margin: 0.25rem 0;
+}
+
+.publication a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
