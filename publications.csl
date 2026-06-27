@@ -1,57 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
   <info>
-    <title>Simple Publications</title>
-    <id>http://www.zotero.org/styles/simple-publications</id>
-    <updated>2026-01-01T00:00:00+00:00</updated>
+    <title>Simple Academic Publications</title>
+    <id>https://jinyuanstellasun.github.io/styles/simple-academic-publications</id>
+    <link href="https://jinyuanstellasun.github.io/styles/simple-academic-publications" rel="self"/>
+    <author>
+      <name>Jinyuan Stella Sun</name>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="engineering"/>
+    <updated>2026-06-27T00:00:00+00:00</updated>
   </info>
 
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter=", " initialize-with=". "/>
+      <name name-as-sort-order="all"
+            sort-separator=", "
+            initialize-with=". "
+            delimiter=", "
+            delimiter-precedes-last="always"/>
+      <label form="short" prefix=", "/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
     </names>
   </macro>
 
-  <macro name="issued">
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
+  <macro name="year">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text variable="year"/>
+      </else>
+    </choose>
   </macro>
 
   <macro name="title">
     <text variable="title" font-weight="bold"/>
   </macro>
 
-  <macro name="container">
+  <macro name="venue">
     <choose>
-      <if variable="container-title">
-        <text variable="container-title" font-style="italic"/>
+      <if type="paper-conference">
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <text variable="event-place"/>
+        </group>
       </if>
+      <else-if type="chapter">
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <text variable="publisher"/>
+        </group>
+      </else-if>
+      <else>
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <text variable="publisher"/>
+        </group>
+      </else>
     </choose>
   </macro>
 
-  <citation>
-    <layout>
+  <macro name="details">
+    <group delimiter=", ">
+      <text variable="volume" prefix="vol. "/>
+      <text variable="issue" prefix="no. "/>
+      <text variable="page" prefix="pp. "/>
+    </group>
+  </macro>
+
+  <macro name="access">
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix="doi: https://doi.org/"/>
+      </if>
+      <else-if variable="URL">
+        <text variable="URL"/>
+      </else-if>
+    </choose>
+  </macro>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
       <text variable="citation-number"/>
     </layout>
   </citation>
 
-  <bibliography et-al-min="10" et-al-use-first="8">
+  <bibliography et-al-min="20" et-al-use-first="19" second-field-align="false">
     <sort>
-      <key macro="issued" sort="descending"/>
-      <key macro="author"/>
-      <key variable="title"/>
+      <key macro="year" sort="descending"/>
+      <key macro="author" sort="ascending"/>
+      <key variable="title" sort="ascending"/>
     </sort>
+
     <layout suffix=".">
-      <text macro="author"/>
-      <text value=". "/>
-      <text macro="issued" prefix="(" suffix="). "/>
-      <text macro="title"/>
-      <text value=". "/>
-      <text macro="container"/>
-      <text variable="volume" prefix=", "/>
-      <text variable="page" prefix=", pp. "/>
-      <text variable="DOI" prefix=". DOI: "/>
+      <group delimiter=". ">
+        <text macro="author"/>
+        <text macro="year" prefix="(" suffix=")"/>
+        <text macro="title"/>
+        <text macro="venue"/>
+        <text macro="details"/>
+        <text variable="note"/>
+        <text macro="access"/>
+      </group>
     </layout>
   </bibliography>
 </style>
+
