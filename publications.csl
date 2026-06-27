@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Simple Publications</title>
+    <id>http://www.zotero.org/styles/simple-publications</id>
+    <updated>2026-01-01T00:00:00+00:00</updated>
+  </info>
+
+  <macro name="author">
+    <names variable="author">
+      <name and="text" delimiter=", " initialize-with=". "/>
+    </names>
+  </macro>
+
+  <macro name="issued">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <macro name="title">
+    <text variable="title" font-weight="bold"/>
+  </macro>
+
+  <macro name="container">
+    <choose>
+      <if variable="container-title">
+        <text variable="container-title" font-style="italic"/>
+      </if>
+    </choose>
+  </macro>
+
+  <citation>
+    <layout>
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography et-al-min="10" et-al-use-first="8">
+    <sort>
+      <key macro="issued" sort="descending"/>
+      <key macro="author"/>
+      <key variable="title"/>
+    </sort>
+    <layout suffix=".">
+      <text macro="author"/>
+      <text value=". "/>
+      <text macro="issued" prefix="(" suffix="). "/>
+      <text macro="title"/>
+      <text value=". "/>
+      <text macro="container"/>
+      <text variable="volume" prefix=", "/>
+      <text variable="page" prefix=", pp. "/>
+      <text variable="DOI" prefix=". DOI: "/>
+    </layout>
+  </bibliography>
+</style>
