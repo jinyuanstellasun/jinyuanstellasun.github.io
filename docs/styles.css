@@ -2,3 +2,7 @@
 .quarto-about-trestles h1.title {
     font-size: 1.5rem !important;
 }
+
+#refs .csl-entry {
+  margin-bottom: 1.5rem;
+}
