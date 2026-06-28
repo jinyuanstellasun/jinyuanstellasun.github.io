@@ -13,21 +13,15 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 .sponsor-logos {
-  width: 100vw;
-  margin-left: calc(-3rem);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    justify-content: center;
+    column-gap: 80px;
+    margin: 3rem auto;
 }
 
 .sponsor-logos img {
-  max-height: 90px;
-  max-width: 180px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  flex-shrink: 0;
+    max-height: 90px;
+    width: auto;
+    justify-self: center;
 }
