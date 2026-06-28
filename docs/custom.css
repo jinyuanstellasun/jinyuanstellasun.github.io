@@ -19,7 +19,7 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12rem;
+    gap: 12rem; 
 }
 
 .sponsor-logos img {
