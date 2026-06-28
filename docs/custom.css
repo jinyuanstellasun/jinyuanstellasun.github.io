@@ -13,15 +13,16 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 .sponsor-logos {
-    display: grid;
-    grid-template-columns: repeat(4, 220px);
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+
+    display: flex;
     justify-content: center;
-    column-gap: 80px;
-    margin: 3rem auto;
+    align-items: center;
+    gap: 6rem;
 }
 
 .sponsor-logos img {
-    max-height: 90px;
+    height: 90px;
     width: auto;
-    justify-self: center;
 }

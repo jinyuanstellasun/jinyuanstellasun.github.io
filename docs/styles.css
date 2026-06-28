@@ -7,7 +7,7 @@
 body:not(.floating) main#quarto-document-content {
   grid-column: screen-start / screen-end !important;
   max-width: 1150px !important;
-  margin-left: 6rem !important;
+  margin-left: 9rem !important;
   margin-right: auto !important;
 }
 
