@@ -13,25 +13,20 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 .sponsor-logos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-items: center;
-
-    width: 100%;
-    max-width: 1400px;
-    margin: 3rem auto;
-}
-
-.sponsor-logos > div {
-    width: 250px;      /* Increase to 280 or 300 if you want even larger gaps */
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 7rem;
+  margin: 3rem 0;
+  white-space: nowrap;
 }
 
 .sponsor-logos img {
-    max-width: 180px;
-    max-height: 90px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+  max-height: 90px;
+  max-width: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
 }
