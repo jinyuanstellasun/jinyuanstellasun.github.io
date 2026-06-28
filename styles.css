@@ -3,17 +3,17 @@
     font-size: 1.5rem !important;
 } 
 
-main.content {
-  max-width: 1200px !important;
-  margin-left: 2rem !important;
+/* Move regular page content to the left */
+body:not(.floating) main#quarto-document-content {
+  grid-column: screen-start / screen-end !important;
+  max-width: 1150px !important;
+  margin-left: 3rem !important;
   margin-right: auto !important;
 }
 
-#quarto-content {
-  justify-content: flex-start !important;
-}
-
-.column-page {
-  max-width: 1200px !important;
-  margin-left: 0 !important;
+/* Keep text readable */
+main#quarto-document-content p,
+main#quarto-document-content li,
+main#quarto-document-content .csl-entry {
+  max-width: 900px;
 }
