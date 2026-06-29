@@ -20,6 +20,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install openpyxl
 
+      - name: Generate people
+        run: python make_people.py
+     
       - name: Render site
         run: quarto render
 
