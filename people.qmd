@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: ""
 title-block: false
 page-layout: full
 page-navigation: false
