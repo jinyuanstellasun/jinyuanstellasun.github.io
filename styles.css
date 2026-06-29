@@ -19,8 +19,21 @@ main#quarto-document-content .csl-entry {
 }
 
 /* People page: same-size cards */
+.quarto-grid-item .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+/* Photo */
 .quarto-grid-item .card-img-top {
-  height: 260px !important;
-  object-fit: cover !important;
-  object-position: center top !important;
+    height: 260px !important;
+    object-fit: cover !important;
+    object-position: center 15% !important;
+}
+
+/* Text */
+.quarto-grid-item .card-body {
+    flex: 0 0 auto;
 }
