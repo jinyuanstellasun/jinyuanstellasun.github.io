@@ -17,3 +17,13 @@ main#quarto-document-content li,
 main#quarto-document-content .csl-entry {
   max-width: 900px;
 }
+
+/* People page: same-size cards */
+.quarto-grid-item {
+  min-height: 320px;
+}
+
+.quarto-grid-item .card-img-top {
+  height: 200px !important;
+  object-fit: contain !important;
+}
