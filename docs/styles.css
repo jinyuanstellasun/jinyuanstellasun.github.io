@@ -19,7 +19,8 @@ main#quarto-document-content .csl-entry {
 }
 
 /* People page: same-size cards */
-.quarto-grid-item img {
-    height: 280px !important;
-    object-fit: cover !important;
+.quarto-grid-item .card-img-top {
+  height: 260px !important;
+  object-fit: cover !important;
+  object-position: center 15% !important;
 }
