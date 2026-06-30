@@ -29,8 +29,8 @@ for group in GROUPS:
     out_dir = OUTPUT / group
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    for person in people:
-        filename = slugify(person["title"]) + ".yml"
+    for i, person in enumerate(people, start=1):
+        filename = f"{i:02d}-{slugify(person['title'])}.yml"
         out_file = out_dir / filename
 
         with out_file.open("w", encoding="utf-8") as f:
