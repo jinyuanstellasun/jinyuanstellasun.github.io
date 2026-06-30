@@ -1,12 +1,12 @@
-- title: "Yingyuan Yang"
-  subtitle: "Ph.D., Assistant Professor"
-  image: "files/images/yin.jpg"
-  path: "https://uisacad5.uis.edu/~yyang260/default.html"
-
 - title: "Jiangnan Li"
   subtitle: "Ph.D., Security Researcher"
   image: "files/images/jiangnan.jpg"
   path: "https://jiangnan3.github.io/"
+
+- title: "Yingyuan Yang"
+  subtitle: "Ph.D., Assistant Professor"
+  image: "files/images/yin.jpg"
+  path: "https://uisacad5.uis.edu/~yyang260/default.html"
 
 - title: "Xiangyu Niu"
   subtitle: "Ph.D., Software Engineer"
