@@ -17,10 +17,14 @@ css: custom.css
 
 For a complete list of publications, please see my [CV](files/cv.pdf).
 
+<div class="pub-section">
+
 ## Selected Recent Publications
 
 ::: {#refs}
 :::
+
+</div>
 
 # Research Sponsors
 
