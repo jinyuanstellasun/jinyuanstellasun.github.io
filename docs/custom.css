@@ -12,21 +12,19 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
     margin-bottom: 1.5rem !important;
 }
 
-h2#selected-recent-publications {
+.pub-section h2 {
   border-bottom: none !important;
   display: block !important;
-  width: fit-content !important;
-  max-width: 850px !important;
-  position: relative;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.45rem;
   margin-bottom: 1.2rem;
+  position: relative;
 }
 
-h2#selected-recent-publications::after {
+.pub-section h2::after {
   content: "";
   display: block;
-  width: 850px;
-  max-width: calc(100vw - 6rem);
+  width: 900px;
+  max-width: 100%;
   border-bottom: 1px solid #dee2e6;
   position: absolute;
   left: 0;
