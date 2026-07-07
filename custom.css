@@ -13,9 +13,10 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 .sponsor-logos {
-  width: 1600px !important;
-  max-width: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
   margin: 3rem 0 !important;
+  overflow-x: hidden !important;
 }
 
 .sponsor-logos > p {
