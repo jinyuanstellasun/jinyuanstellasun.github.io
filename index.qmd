@@ -10,24 +10,19 @@ about:
   id: hero-heading
   template: trestles
   image-width: 50%
+  links:
+    - text: "Email"
+      href: "mailto:jysun@utk.edu"
+    - text: "jysun@utk.edu"
+      href: "mailto:jysun@utk.edu"
+    - text: "Office"
+    - text: "Min H. Kao 604"
+    - text: "Department of EECS"
+    - text: "University of Tennessee, Knoxville"
+    - text: "1520 Middle Drive"
+    - text: "Knoxville, TN 37996"
   
 ---
-
-<div class="contact-info">
-
-<div class="contact-heading">Email</div>
-<a href="mailto:sun@utk.edu">sun@utk.edu</a>
-
-<br><br>
-
-<div class="contact-heading">Office</div>
-Min H. Kao Department of EECS<br>
-University of Tennessee, Knoxville<br>
-Min H. Kao Building<br>
-1520 Middle Drive<br>
-Knoxville, TN 37996
-
-</div>
 
 :::{#hero-heading}
 
