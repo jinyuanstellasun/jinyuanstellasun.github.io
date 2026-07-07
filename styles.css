@@ -23,3 +23,26 @@ main#quarto-document-content .csl-entry {
     height: 300px !important;
     object-fit: cover !important;
 }
+
+.about-links {
+  text-align: left !important;
+  margin-top: 1rem;
+}
+
+.about-link {
+  justify-content: flex-start !important;
+}
+
+.about-link-text {
+  text-align: left !important;
+}
+
+.about-link:nth-child(1) .about-link-text,
+.about-link:nth-child(3) .about-link-text {
+  font-weight: 700;
+  color: #333;
+}
+
+.about-link:nth-child(3) {
+  margin-top: 1rem;
+}
