@@ -19,8 +19,6 @@ For a complete list of publications, please see my [CV](files/cv.pdf).
 
 ## Selected Recent Publications
 
-<div class="pub-heading-line"></div>
-
 ::: {#refs}
 :::
 
