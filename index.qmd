@@ -10,24 +10,14 @@ about:
   id: hero-heading
   template: trestles
   image-width: 50%
-  contents: |
-    <div class="contact-info">
-
-    <div class="contact-title">Email</div>
-
-    <a href="mailto:sun@utk.edu">sun@utk.edu</a>
-
-    <br><br>
-
-    <div class="contact-title">Office</div>
-
-    Min H. Kao Department of EECS<br>
-    University of Tennessee, Knoxville<br>
-    Min H. Kao Building<br>
-    1520 Middle Drive<br>
+  subtitle: |
+    sun@utk.edu
+  
+    Min H. Kao Department of EECS
+    University of Tennessee, Knoxville
+    Min H. Kao Building
+    1520 Middle Drive
     Knoxville, TN 37996
-
-    </div>
   
 ---
 
