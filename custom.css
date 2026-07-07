@@ -12,23 +12,18 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
     margin-bottom: 1.5rem !important;
 }
 
-.pub-section h2 {
+#selected-recent-publications {
   border-bottom: none !important;
-  display: block !important;
-  padding-bottom: 0.45rem;
-  margin-bottom: 1.2rem;
-  position: relative;
+  padding-bottom: 0 !important;
 }
 
-.pub-section h2::after {
-  content: "";
-  display: block;
-  width: 900px;
+/* custom shorter line */
+.pub-heading-line {
+  width: 850px;
   max-width: 100%;
   border-bottom: 1px solid #dee2e6;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  margin-top: -0.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .sponsor-logos {
