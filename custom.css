@@ -13,9 +13,24 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 h2#selected-recent-publications {
+  border-bottom: none !important;
   display: block !important;
-  width: 800px;
-  max-width: 100%;
+  width: fit-content !important;
+  max-width: 850px !important;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+h2#selected-recent-publications::after {
+  content: "";
+  display: block;
+  width: 850px;
+  max-width: calc(100vw - 6rem);
+  border-bottom: 1px solid #dee2e6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .sponsor-logos {
