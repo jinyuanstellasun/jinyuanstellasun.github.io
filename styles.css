@@ -3,6 +3,11 @@
     font-size: 1.5rem !important;
 } 
 
+.quarto-about-trestles .subtitle.lead {
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+}
+
 /* Move regular page content to the left */
 body:not(.floating) main#quarto-document-content {
   grid-column: screen-start / screen-end !important;
