@@ -12,10 +12,10 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
     margin-bottom: 1.5rem !important;
 }
 
-#selected-recent-publications h2,
-#selected-recent-publications + h2,
-h2 {
-    display: inline-block;
+h2#selected-recent-publications {
+  display: block !important;
+  width: 900px;
+  max-width: 100%;
 }
 
 .sponsor-logos {
