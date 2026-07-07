@@ -1,6 +1,6 @@
 ---
 title: "Jinyuan Stella Sun, PhD"
-subtitle: "Email: jysun AT utk.edu"
+subtitle: "Email: jysunATutk.edu"
 image: "files/images/stellasun.jpg"
 page-navigation: false
 toc: false
