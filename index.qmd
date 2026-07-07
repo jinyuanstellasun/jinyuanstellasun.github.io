@@ -1,5 +1,6 @@
 ---
 title: "Jinyuan Stella Sun, PhD"
+subtitle: "Email: jysun@utk.edu"
 image: "files/images/stellasun.jpg"
 page-navigation: false
 toc: false
@@ -10,14 +11,6 @@ about:
   id: hero-heading
   template: trestles
   image-width: 50%
-  subtitle: |
-    sun@utk.edu
-  
-    Min H. Kao Department of EECS
-    University of Tennessee, Knoxville
-    Min H. Kao Building
-    1520 Middle Drive
-    Knoxville, TN 37996
   
 ---
 
