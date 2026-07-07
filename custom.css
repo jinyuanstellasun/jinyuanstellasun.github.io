@@ -12,20 +12,6 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
     margin-bottom: 1.5rem !important;
 }
 
-#selected-recent-publications {
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
-}
-
-/* custom shorter line */
-.pub-heading-line {
-  width: 850px;
-  max-width: 100%;
-  border-bottom: 1px solid #dee2e6;
-  margin-top: -0.4rem;
-  margin-bottom: 1.2rem;
-}
-
 .sponsor-logos {
   width: 100% !important;
   max-width: 100% !important;
